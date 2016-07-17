@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <title>SOS Mulher</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='http://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/sos.png" >
+    <script src="js/script.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-inverse  ">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><img class="logo" src="img/sos.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><div class="navbar-form"><input type="text" class="form-control" placeholder="Search"></div></li>
+            <li><a href="home.html" title="Home"><span class="glyphicon glyphicon glyphicon-home icone"></span></a></li>
+            <li><a href="#modalAdd" type="button" data-toggle="modal" data-target="#modalAdd" title="Adicionar Foto"><span class="glyphicon glyphicon-plus icone"></span></a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div id="map" style="width:100%; height:88%"></div>
+  
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCLK7dUMwSQhp-Jr78d6Gox0yRFlA_apG4&callback=initMap&region=br">
+    </script>
+
+  </body>
+
+</html>
